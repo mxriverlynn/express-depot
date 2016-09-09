@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Express-Depo
+  p Welcome to the Express plugin loader! 
+  p Check out these demo plugins that were loaded:
+
+  ul
+    li
+      a(href="/plugins/sample") The Sample Sub-App
+    li
+      a(href="/plugins/sample/err") Return An Error, Parent App Catches It
+    li
+      a(href="/plugins/route-example") A Single Router Returning JSON
+    li
+      a(href="/plugins/demo2") A Second Sub-App w/ a Public Folder
+

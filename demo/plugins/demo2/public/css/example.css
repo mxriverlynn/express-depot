@@ -1,0 +1,13 @@
+body {
+  background-color: #ccc;
+}
+
+ul {
+  margin: 1em;
+  background-color: #fff;
+}
+
+ul li {
+  padding: 1em;
+  margin: 1em;
+}

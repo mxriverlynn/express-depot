@@ -1,0 +1,32 @@
+{
+  "name": "express-depot",
+  "version": "0.0.1",
+  "description": "mount Express sub-apps and middleware from a directory listing",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derickbailey/express-depot.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "sub-apps",
+    "mount",
+    "engine",
+    "plugin",
+    "loader"
+  ],
+  "author": "Derick Bailey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derickbailey/express-depot/issues"
+  },
+  "homepage": "https://github.com/derickbailey/express-depot#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
