@@ -3,6 +3,7 @@ version: '2'
 services:
 
   express-depot:
+    container_name: express-depot
     build:
       context: ./
       dockerfile: dockerfile

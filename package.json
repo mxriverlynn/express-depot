@@ -30,7 +30,8 @@
     "grunt": "1.0.1",
     "grunt-contrib-jshint": "1.0.0",
     "grunt-contrib-watch": "1.0.0",
-    "grunt-jasmine-nodejs": "1.5.4"
+    "grunt-jasmine-nodejs": "1.5.4",
+    "supertest": "2.0.0"
   },
   "dependencies": {}
 }
