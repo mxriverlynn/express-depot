@@ -1,0 +1,27 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "immed": false,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "boss": true,
+  "eqnull": true,
+  "browser": true,
+  "strict": false,
+  "globalstrict": true,
+  "latedef": false,
+  "esnext": true,
+  "globals": {
+    "describe": true,
+    "beforeEach": true,
+    "it": true,
+    "expect": true,
+    "console": true,
+    "require": true,
+    "module": true,
+    "process": true
+  }
+}

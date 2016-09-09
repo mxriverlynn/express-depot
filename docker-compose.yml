@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+
+  express-depot:
+    build:
+      context: ./
+      dockerfile: dockerfile
+    volumes:
+      - ./lib:/var/app/lib
+      - ./specs:/var/app/specs
+      - ./package.json:/var/app/package.json
+      - ./.jshintrc:/var/app/.jshintrc
+      - ./gruntfile.js:/var/app/gruntfile.js
+      - ./docker-shell.sh:/usr/local/bin/docker-shell.sh
+    working_dir: /var/app
+    entrypoint:
+      - docker-shell.sh
+    networks:
+      - express-depot-network
+
+networks:
+    express-depot-network:
+        driver: bridge
